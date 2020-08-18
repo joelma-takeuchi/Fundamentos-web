@@ -25,12 +25,14 @@
            
             <form> <!--formulario/ tag label: qual input ela vai fazer parte-->
                 <label for="nome">Nome</label><br><!--toda label vem input-->
-                <input type="text" id="nome"><!--colocar algum conteudo dentro, variando os tipos-->
+                <input type="text" id="nome" onkeyup="validaNome()"><!--colocar algum conteudo dentro, variando os tipos/ onkeyup= quando solta o botão teclado ele emite um alerta-->
+                <div id="txtNome"></div>
                 <br>
                 <br><!--pula linha, mas não é uma boa prática dentro de html-->
                
                 <label for="email">E-mail:</label><br>
-                <input type="email" id="email">
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <br>
         
@@ -72,6 +74,8 @@
         </div>
         <p class="center">Todos os direitos reservados: Jô&Jô</p>
     </footer>
+    <!--referenciando o js-->
+    <script src="assets/js/script.js"></script>
 
     
     
