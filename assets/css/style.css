@@ -1,0 +1,54 @@
+/*Estlos da página index.html*/
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+/*padding espaçamento interno do conteudo/ margin , colocando espaço entre home contato*/
+#menu li{
+    display: inline;
+    padding:15px;
+    text-decoration: none;
+}
+/* o menu home contato*/
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*objeto muda de cor quando passa o mouse*/
+#menu li a:hover{
+    color:grey;
+
+}
+/*padding do texto*/
+.p-30{
+    padding: 30px;
+}
+/* deixando objeto redondo, caso ele seja quadrado*/
+.br-50{
+    border-radius: 50%;
+}
+/*alterando tamanho o objeto foto*/
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+.tm-social{
+    width:50px;
+    height:50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Estlos da página contato.html*/
+.ml-50{
+    margin-left: 50px;
+
+}
